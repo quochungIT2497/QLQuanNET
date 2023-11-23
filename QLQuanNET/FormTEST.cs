@@ -4,23 +4,17 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QLQuanNET
 {
-    public partial class FormCTMayTinh : Form
+    public partial class FormTEST : Form
     {
-        public FormCTMayTinh()
+        public FormTEST()
         {
             InitializeComponent();
         }
-        private void FormCTMayTinh_Load(object sender, EventArgs e)
-        {
-            this.FormBorderStyle = FormBorderStyle.None;
-        }
-
     }
 }
